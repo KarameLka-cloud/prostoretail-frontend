@@ -1,23 +1,32 @@
 # Название проекта: Prostoretail
 
-Бэкенд часть сайта Prostoretail
+Фронтенд часть сервиса Prostoretail
 
 ## 🚀 **Технологии и стек**
 
-- **Фреймворк**: [Express JS](https://expressjs.com/)
-- **ORM**: [Sequelize](https://sequelize.org/)
+- **Язык**: [TypeScript](https://www.typescriptlang.org/)
+- **Фреймворк**: [React](https://react.dev/)
+- **Роутинг**: [React Router](https://reactrouter.com/)
+- **State-менеджмент**: [Redux Toolkit](https://redux-toolkit.js.org/)
+- **Сборка**: [Vite](https://vitejs.dev/)
+- **Стилизация**: [Modules]
+- **API-клиент**: [RTK Query]
+- **Линтеры и форматирование**: [ESLint]
+- **Тестирование**: []
+- **Деплой**: []
 
 ## 📂 **Структура проекта**
 
 ```
 /src
-|-- /config        # Конфигурации
-|-- /controllers   # Контроллеры
-|-- /middleware    # Доступ
-|-- /models        # Модели
-|-- /routes        # Слои
-|-- .env           # Настройки БД и сервера
-|-- app.js         # Точка входа
+|-- /assets        # Статические файлы
+|-- /components    # Компоненты
+|-- /features      # Фичи, модули Redux
+|-- /hooks         # Кастомные хуки
+|-- /layouts       # Слои
+|-- /pages         # Страницы
+|-- /routes        # Роутинг
+|-- main.tsx       # Точка входа
 ```
 
 ## ⚙️ **Установка и запуск**
@@ -44,4 +53,3 @@
    ```bash
    npm run build
    ```
-
