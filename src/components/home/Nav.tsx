@@ -1,7 +1,3 @@
 export default function Nav() {
-    return (
-        <nav>
-            Navigate
-        </nav>
-    )
+  return <nav>Navigate</nav>;
 }
