@@ -1,0 +1,9 @@
+.main {
+  background-color: tomato;
+
+  &__container {
+    max-width: $breakpoint-xl;
+    margin: 0 auto;
+    background-color: lightblue;
+  }
+}

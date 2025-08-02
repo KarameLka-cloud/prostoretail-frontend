@@ -1,0 +1,9 @@
+.footer {
+  background-color: darkgreen;
+
+  &__container {
+    max-width: $breakpoint-xl;
+    margin: 0 auto;
+    background-color: lightgray;
+  }
+}

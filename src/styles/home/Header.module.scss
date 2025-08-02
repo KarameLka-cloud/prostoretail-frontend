@@ -1,0 +1,33 @@
+.header {
+  background-color: antiquewhite;
+
+  .header_top {
+    background-color: brown;
+
+    &__container {
+      max-width: $breakpoint-xl;
+      margin: 0 auto;
+      background-color: aqua;
+    }
+  }
+
+  .header_search {
+    background-color: crimson;
+
+    &__container {
+      max-width: $breakpoint-xl;
+      margin: 0 auto;
+      background-color: darkmagenta;
+    }
+  }
+
+  .header_nav {
+    background-color: darkslategrey;
+
+    &__container {
+      max-width: $breakpoint-xl;
+      margin: 0 auto;
+      background-color: gold;
+    }
+  }
+}
