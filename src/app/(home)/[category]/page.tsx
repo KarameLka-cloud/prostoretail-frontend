@@ -1,9 +1,9 @@
-export default function CategoryPage({
+export default async function CategoryPage({
   params,
 }: {
   params: { category: string };
 }) {
-  const { category } = params;
+  const { category } = await params;
 
   return (
     <div>
